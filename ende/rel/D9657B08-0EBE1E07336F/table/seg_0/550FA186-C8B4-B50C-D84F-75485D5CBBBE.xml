@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550FA186-C8B4-B50C-D84F-75485D5CBBBE" name="LIBRO">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>4F639E19-3EEF-3A0A-A80D-E1D518B824EC</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ISBN" id="21DCF9CF-C086-80BB-A1EA-489F7D3930EC">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>EC0E17FA-889B-DB7A-9423-15B0523892D4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titulo" id="7DB7096E-3FFF-E435-BC30-1DFBBF75266C">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>46CDED13-F5DB-527F-F276-5C730D1AF44A</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="AC83A7EC-FB50-ED11-B665-E47583673B79">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>2ADF7575-7DBC-1D75-0D35-9C9A063FE4D7</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIBRO_ID" id="5BD66B93-9E16-AABB-6474-4919BF1CEF79">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BD9BBE4-4BC9-A5B7-7E3D-1EEAC5BC2EAC" name="LIBRO_PKv1">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:43:07 UTC</createdTime>
+<generatorID>A20595C1-DADB-55F5-DF87-2D7BFA8E17E4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21DCF9CF-C086-80BB-A1EA-489F7D3930EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0F2A453-3F11-5ADF-B113-A1912A1700D3" name="LIBRO_PK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5BD66B93-9E16-AABB-6474-4919BF1CEF79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

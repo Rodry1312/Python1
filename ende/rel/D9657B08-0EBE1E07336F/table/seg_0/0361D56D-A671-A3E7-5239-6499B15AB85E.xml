@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0361D56D-A671-A3E7-5239-6499B15AB85E" name="AUTORES">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>E40373D2-7BCB-E64A-D1FE-2A504199275A</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="7ECBBAC1-A8CB-FF77-2C62-7DCCBA87101A">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>11605F9D-AC4C-7F82-7F2F-38B2304918E1</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B5955932-B462-AA8F-BC06-E61E90952924">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>E3910D3A-F80E-C6F4-FBA2-CC6666AA2A19</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="8AC61E10-E375-D834-5D95-475819D0E3CB">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>47196749-BAF3-15C0-76B9-7864F246DACB</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_Nact" id="D5F453BD-6994-2541-A170-2D99112F0414">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>E8A8A159-1CBF-9819-546C-DBEC79966BC7</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD6AEE28-7723-9D69-4427-95298F060F85" name="AUTORES_PK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>CA1CC26C-8CC3-97E0-341B-BEFC96AFFA09</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ECBBAC1-A8CB-FF77-2C62-7DCCBA87101A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

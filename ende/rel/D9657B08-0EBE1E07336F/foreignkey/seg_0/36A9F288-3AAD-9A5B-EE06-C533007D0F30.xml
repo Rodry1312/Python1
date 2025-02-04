@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="36A9F288-3AAD-9A5B-EE06-C533007D0F30" containerWithKeyObject="878D885D-8BA3-8504-8F3B-41CE0394A984" localFKIndex="1BA879F2-C4E1-6DDC-F784-0CFEBB474E15" name="Relation_1_AUTORES_FK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>DBFD90B9-0E7C-7E02-EC86-D789C39078B4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<referredTableLongName>AUTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0361D56D-A671-A3E7-5239-6499B15AB85E</referredTableID>
+<keyObject>FD6AEE28-7723-9D69-4427-95298F060F85</keyObject>
+<referredKeyID>FD6AEE28-7723-9D69-4427-95298F060F85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

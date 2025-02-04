@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9C5AB05E-8A44-82D1-3B53-5AB552818D00">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:26:56 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

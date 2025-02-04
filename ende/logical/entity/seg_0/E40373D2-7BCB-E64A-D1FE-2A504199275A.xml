@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E40373D2-7BCB-E64A-D1FE-2A504199275A" name="AUTORES">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:28:45 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="11605F9D-AC4C-7F82-7F2F-38B2304918E1">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:34:19 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="E3910D3A-F80E-C6F4-FBA2-CC6666AA2A19">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:34:34 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="47196749-BAF3-15C0-76B9-7864F246DACB">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:34:49 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F_Nact" id="E8A8A159-1CBF-9819-546C-DBEC79966BC7">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:35:01 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA1CC26C-8CC3-97E0-341B-BEFC96AFFA09" name="AUTORES PK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:34:29 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11605F9D-AC4C-7F82-7F2F-38B2304918E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

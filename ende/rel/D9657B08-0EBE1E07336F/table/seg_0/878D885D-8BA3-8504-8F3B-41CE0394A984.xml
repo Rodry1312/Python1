@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="878D885D-8BA3-8504-8F3B-41CE0394A984" name="Relation_1">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LIBRO_LIBRO_ID" id="765EF70F-D38D-E5DC-96BE-063518E8CDBA">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DF64A4C-C2B2-4A5D-45A4-276966B166AC" referredColumn="5BD66B93-9E16-AABB-6474-4919BF1CEF79"/>
+</associations>
+</Column>
+<Column name="AUTORES_DNI" id="CB5948F6-FC76-A627-B0A9-1A399A090D26">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36A9F288-3AAD-9A5B-EE06-C533007D0F30" referredColumn="7ECBBAC1-A8CB-FF77-2C62-7DCCBA87101A"/>
+</associations>
+</Column>
+<Column name="LIBRO_ISBN" id="13DA2612-3C0F-7064-D701-6600054ED3D2">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 08:02:14 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15B894EB-9AE4-3661-1E5D-AF917A36E9D1" referredColumn="21DCF9CF-C086-80BB-A1EA-489F7D3930EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32E27C57-2F4B-49B1-98A0-B109CA09FCE2" name="Relation_1_PK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="765EF70F-D38D-E5DC-96BE-063518E8CDBA"/>
+<colUsage columnID="CB5948F6-FC76-A627-B0A9-1A399A090D26"/>
+<colUsage columnID="13DA2612-3C0F-7064-D701-6600054ED3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A957481-D017-B215-A83E-E673BEDDAA62" name="Relation_1_LIBRO_FK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>DBFD90B9-0E7C-7E02-EC86-D789C39078B4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="765EF70F-D38D-E5DC-96BE-063518E8CDBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA879F2-C4E1-6DDC-F784-0CFEBB474E15" name="Relation_1_AUTORES_FK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:37:44 UTC</createdTime>
+<generatorID>DBFD90B9-0E7C-7E02-EC86-D789C39078B4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB5948F6-FC76-A627-B0A9-1A399A090D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B034E49-4204-00EE-BABE-FF2EC3DE0187" name="Relation_1_LIBRO_FKv1">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 08:02:14 UTC</createdTime>
+<generatorID>DBFD90B9-0E7C-7E02-EC86-D789C39078B4</generatorID>
+<ownerDesignName>ende</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13DA2612-3C0F-7064-D701-6600054ED3D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

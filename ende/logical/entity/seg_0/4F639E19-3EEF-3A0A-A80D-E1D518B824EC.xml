@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F639E19-3EEF-3A0A-A80D-E1D518B824EC" name="LIBRO">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:29:30 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ISBN" id="EC0E17FA-889B-DB7A-9423-15B0523892D4">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:35:26 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titulo" id="46CDED13-F5DB-527F-F276-5C730D1AF44A">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:35:34 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="2ADF7575-7DBC-1D75-0D35-9C9A063FE4D7">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:35:50 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A20595C1-DADB-55F5-DF87-2D7BFA8E17E4" name="LIBRO PK">
+<createdBy>angyr</createdBy>
+<createdTime>2025-02-04 07:42:57 UTC</createdTime>
+<ownerDesignName>ende</ownerDesignName>
+<engineerTo>
+<item key="D9657B08-7D40-F6D9-2EF4-0EBE1E07336F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC0E17FA-889B-DB7A-9423-15B0523892D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
